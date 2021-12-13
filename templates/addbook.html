@@ -1,0 +1,33 @@
+<head>
+    <link rel="icon" href="data:;base64,=">
+</head>
+<body>
+<!-- <form action="{{url_for('bookadd')}}" method="post"> 
+    <h5>Enter the spendings</h5>
+    <div class="form-group">
+            <input class="form-control" type="text" name="money" placeholder="money">
+        </div>
+      <button class="btn btn-primary">Submit</button>
+    </div>
+    </form> -->
+            <form action="{{ url_for('bookadd')}}" method=post> 
+        <h5>Enter the book Details</h5>
+        <div class="form-group">
+            <input class="form-control" type="text" name="isbn" placeholder="ISBN">
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="text" name="title" placeholder="Title">
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="text" name="author" placeholder="Author">
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="text" name="year" placeholder="Year">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary">Submit</button>
+        </div>
+        </form>
+</body>
+
+
